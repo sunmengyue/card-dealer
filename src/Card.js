@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 
 class Card extends Component {
-  constructor(props) {
-    super(props);
-  }
   render() {
-    return <div>card</div>;
+    return <img src={this.props.cardImg} alt={this.props.name} />;
   }
 }
+
+export default Card;
